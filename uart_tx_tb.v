@@ -1,22 +1,17 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Institute: Indian Institute of Technology, Kanpur
+// Engineer: Amogh Gajare
 // 
-// Create Date: 10/13/2021 11:54:19 AM
-// Design Name: 
-// Module Name: uart_tx_tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
+// Create Date: 10/07/2021 11:06:58 AM
+// Module Name: Testbench for UART_String_Transmitter
+// Project Name: FPGA based UART Transmitter
+// Tool Versions: Quartus Prime 19.1 Lite Edition, Xilinx Vivado 2019.1
+//
 // Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Revision 1.0 - File Created.
+//
+// Additional Comments: 
 //////////////////////////////////////////////////////////////////////////////////
 
 
