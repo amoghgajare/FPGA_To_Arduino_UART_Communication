@@ -1,22 +1,21 @@
 `timescale 1ns / 1ps
+
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Institute: Indian Institute of Technology, Kanpur
+// Engineer: Amogh Gajare
 // 
-// Create Date: 10/13/2021 11:23:19 AM
-// Design Name: 
-// Module Name: uart_tx
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
+// Create Date: 10/07/2021 11:06:58 AM
+// Module Name: UART_String_Transmitter
+// Project Name: FPGA based UART Transmitter
+// Target Devices: DE0 Nano Board, Basys3 Board
+// Tool Versions: Quartus Prime 19.1 Lite Edition, Xilinx Vivado 2019.1
+// Description: Verilog module for transmitting an AT command to an Arduino 
+//              via UART protocol.
+//
 // Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Revision 1.0 - File Created.
+//
+// Additional Comments: 
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -70,7 +69,7 @@ module uart_tx
         
  end
   
-//CLOCK DIVISION - 50MHz TO 2MHz
+//CLOCK DIVISION - 50MHz TO 1MHz
 
 always @(posedge i_Clock)
 begin
